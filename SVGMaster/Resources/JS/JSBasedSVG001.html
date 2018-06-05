@@ -1,0 +1,24 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>JavaScript Based SVG 001</title>
+    <script language="javascript">
+        var ns = 'http://www.w3.org/2000/svg'
+        var div = document.getElementById('drawing')
+        var svg = document.createElementNS(ns, 'svg')
+        svg.setAttributeNS(null, 'width', '100%')
+        svg.setAttributeNS(null, 'height', '100%')
+        div.appendChild(svg)
+        var rect = document.createElementNS(ns, 'rect')
+        rect.setAttributeNS(null, 'width', 100)
+        rect.setAttributeNS(null, 'height', 100)
+        rect.setAttributeNS(null, 'fill', '#f06')
+        svg.appendChild(rect)
+    </script>
+</head>
+<body>
+    <div id="drawing"></div>
+</body>
+</html>
