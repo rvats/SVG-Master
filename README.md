@@ -13,3 +13,5 @@ Two.js: https://two.js.org/
 Velocity.js: http://velocityjs.org/
 Vivus.js: https://maxwellito.github.io/vivus/
 https://www.webdesignerdepot.com/2018/02/8-best-free-libraries-for-svg/
+
+My Inspiration for this project is based of the work done by Lasitha Petthawadu at https://lasithapetthawadu.wordpress.com/2014/02/24/using-vector-svg-graphics-in-c-net/
